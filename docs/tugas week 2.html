@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrasi</title>
+</head>
+<body background="C:\Users\ACER\Documents\SEMESTER 3\assets\image\adatminang.jpeg">
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Registrasi Himpunan Daerah</legend>   
+
+        <h1>Himpunan Mahasiswa Minang </h1>
+        <h2>RANCAK BANA</h2>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama lengkap..." />
+        </p>
+        <p>
+            <label>Gender:</label>
+            <label><input type="radio" name="Gender" value="Man" /> Man</label>
+            <label><input type="radio" name="Gender" value="Women" /> Women</label>
+        </p>
+        <p>
+            <label>Address:</label>
+            <input type="Address" name="Address" placeholder="Your Address..." />
+        </p>
+        <p>
+            <label>Country:</label>
+            <select name="Country">
+                <option value="indonesia">Indonesia</option>
+                <option value="Australia">Australia</option>
+                <option value="Arab">Arab</option>
+                <option value="Malaysia">Malaysia</option>
+            </select>
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="Email" name="Email" placeholder="=Email..." />
+        </p>
+        <p>
+            <label>Photo:</label>
+            <input type="file" name="upload" value width="200"/>
+
+        </p>
+        <p>Comment: <textarea cols="40" rows="10" name="mes"></textarea> <input type="submit" name="submit" value="submit"></p>
+  <br>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="submit" />
+        </p>
+        
+    </form>
+</body>
+</html>
